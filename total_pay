@@ -1,0 +1,6 @@
+hrs = input("Enter Hours:")
+rate = input("Enter Rate:")
+pay = float(hrs) * float(rate)
+print("Pay:", pay)
+
+#The ideia is to write a simple program that calculates the total pay for an employee based on the number of hours worked x the rate per hour.
