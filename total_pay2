@@ -1,0 +1,12 @@
+hours = input("Enter Hours:")
+rate = input("Enter rate:")
+pay = float(hours) * float(rate)
+extra = (float(hours) - 40) * (float(rate) * 0.5)
+if float(hours) > 40 :
+    print(pay + extra)
+else :
+    print(pay)
+
+# The ideia is to write a simple program that calculates the total pay for an employee based on the number of hours worked x the rate per hour.
+# It also considers that the hours exceeding 40 will have a different rate.
+# Again, rate should not be treated as a float, but rather as a currency, but it's a beginner's exercise.
