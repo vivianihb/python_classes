@@ -1,0 +1,18 @@
+hours = input("Enter hours:")
+rate = input("Enter rate:")
+hours = float(hours)
+rate = float(rate)
+
+def computepay (hours, rate) :
+    if hours > 40 :
+        return (hours * rate) + ((hours - 40) * (rate * 0.5)) 
+    else :
+        return hours * rate
+
+payment = computepay(hours, rate)
+print("Pay", payment)
+
+# The ideia is to write a simple program that calculates the total pay for an employee based on the number of hours worked x the rate per hour.
+# It also considers that the hours exceeding 40 will have a different rate.
+# In this specific exercise, we were learning how to define functions.
+# Again, rate should not be treated as a float, but rather as a currency, but it's a beginner's exercise.
